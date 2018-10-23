@@ -4,7 +4,7 @@
 
     <groupId>com.bartek</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.5</version>
+    <version>0.0.11</version>
 
     <modules>
         <module>pet-clinic-data</module>
@@ -30,12 +30,11 @@
     </properties>
 
     <dependencies>
-            <dependency>
-                <groupId>javax.xml.bind</groupId>
-                <artifactId>jaxb-api</artifactId>
-            </dependency>
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+        </dependency>
     </dependencies>
-
 
 
     <build>
@@ -57,7 +56,7 @@
     <scm>
         <developerConnection>scm:git:git@github.com:sawikb0/sfg-pet-clinic.git</developerConnection>
 
-    <tag>sfg-pet-clinic-0.0.5</tag>
+      <tag>sfg-pet-clinic-0.0.11</tag>
   </scm>
 
 
