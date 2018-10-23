@@ -3,13 +3,13 @@
     <parent>
         <artifactId>sfg-pet-clinic</artifactId>
         <groupId>com.bartek</groupId>
-        <version>0.0.11</version>
+        <version>0.0.14-SNAPSHOT</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>pet-clinic-data</artifactId>
-  <version>0.0.11</version>
+  <version>0.0.12</version>
 
     <dependencies>
         <dependency>
@@ -61,4 +61,8 @@
             </plugin>
         </plugins>
     </build>
+
+  <scm>
+    <tag>pet-clinic-data-0.0.12</tag>
+  </scm>
 </project>
