@@ -2,9 +2,11 @@ package com.bartek.sfgpetclinic.services.map;
 
 import com.bartek.sfgpetclinic.model.Pet;
 import com.bartek.sfgpetclinic.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
